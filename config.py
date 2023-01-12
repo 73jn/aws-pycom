@@ -1,7 +1,9 @@
 
 # wifi configuration
-WIFI_SSID = 'Jean'
-WIFI_PASS = '12345678'
+#WIFI_SSID = 'Jean'
+#WIFI_PASS = '12345678'
+WIFI_SSID = 'B2bi'
+WIFI_PASS = 'Bambi1958+'
 
 # AWS general configuration
 AWS_PORT = 8883

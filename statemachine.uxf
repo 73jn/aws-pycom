@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.0.0">
+  <zoom_level>15</zoom_level>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>390</x>
+      <y>450</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>AWS
+CONNECT
+bg=pink
+lw=3
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>390</x>
+      <y>795</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>SLEEPING
+60s
+bg=red
+lw=3
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>390</x>
+      <y>165</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>INIT
+bg=green
+lw=3
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLSpecialState</id>
+    <coordinates>
+      <x>450</x>
+      <y>90</y>
+      <w>30</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>type=initial</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>105</y>
+      <w>45</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+lw=3</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>210</y>
+      <w>45</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+lw=3</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>405</y>
+      <w>45</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+lw=3</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>645</y>
+      <w>45</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+lw=3</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>300</x>
+      <y>180</y>
+      <w>195</w>
+      <h>720</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+lw=3</panel_attributes>
+    <additional_attributes>110.0;450.0;110.0;460.0;10.0;460.0;10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>360</x>
+      <y>255</y>
+      <w>210</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>MEASURES
+bg=cyan
+lw=3
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>390</x>
+      <y>360</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>WIFI
+CONNECT
+bg=orange
+lw=3
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>315</y>
+      <w>45</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+lw=3</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>390</x>
+      <y>540</y>
+      <w>150</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>AWS
+MQTT
+PUBLISH
+bg=pink
+lw=3
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>450</x>
+      <y>495</y>
+      <w>45</w>
+      <h>75</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+lw=3</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLState</id>
+    <coordinates>
+      <x>390</x>
+      <y>705</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>WIFI
+CONNECT
+bg=orange
+lw=3
+fontsize=18</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
